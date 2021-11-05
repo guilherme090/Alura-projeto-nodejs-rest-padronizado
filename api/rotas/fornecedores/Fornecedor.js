@@ -67,7 +67,7 @@ class Fornecedor {
             if(typeof valor !== 'string' || valor.length === 0){
                 throw new CampoInvalido(campo);
             }
-        })
+        });
     }
 }
 
